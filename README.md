@@ -3,9 +3,10 @@
 ## Popis
 Bankový systém kde budeme môcť vytvárať profil zákazníka a upravovať mu meno, IDčko, atd. Bude vedieť pridať a odobrať peniaze z účtu alebo ich poslať nejakému inému zákazníkovy podľa bankového účtu
 
-
-
 ## Štruktúra
+
+> [!CAUTION]
+> Prosím pre všetky funkcie používať Hungarian Notation systém nech v tom neni bordel
 
 - Funkcia bankProfile
 - Funkcia bankOperations
