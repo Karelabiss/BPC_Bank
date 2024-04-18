@@ -1,0 +1,15 @@
+C:\Users\Karel\Documents\dev\OOP\BPC_Bank\BPC_Bank\bin\Debug\net8.0\BPC_Bank.exe
+C:\Users\Karel\Documents\dev\OOP\BPC_Bank\BPC_Bank\bin\Debug\net8.0\BPC_Bank.deps.json
+C:\Users\Karel\Documents\dev\OOP\BPC_Bank\BPC_Bank\bin\Debug\net8.0\BPC_Bank.runtimeconfig.json
+C:\Users\Karel\Documents\dev\OOP\BPC_Bank\BPC_Bank\bin\Debug\net8.0\BPC_Bank.dll
+C:\Users\Karel\Documents\dev\OOP\BPC_Bank\BPC_Bank\bin\Debug\net8.0\BPC_Bank.pdb
+C:\Users\Karel\Documents\dev\OOP\BPC_Bank\BPC_Bank\obj\Debug\net8.0\BPC_Bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Karel\Documents\dev\OOP\BPC_Bank\BPC_Bank\obj\Debug\net8.0\BPC_Bank.AssemblyInfoInputs.cache
+C:\Users\Karel\Documents\dev\OOP\BPC_Bank\BPC_Bank\obj\Debug\net8.0\BPC_Bank.AssemblyInfo.cs
+C:\Users\Karel\Documents\dev\OOP\BPC_Bank\BPC_Bank\obj\Debug\net8.0\BPC_Bank.csproj.CoreCompileInputs.cache
+C:\Users\Karel\Documents\dev\OOP\BPC_Bank\BPC_Bank\obj\Debug\net8.0\BPC_Bank.sourcelink.json
+C:\Users\Karel\Documents\dev\OOP\BPC_Bank\BPC_Bank\obj\Debug\net8.0\BPC_Bank.dll
+C:\Users\Karel\Documents\dev\OOP\BPC_Bank\BPC_Bank\obj\Debug\net8.0\refint\BPC_Bank.dll
+C:\Users\Karel\Documents\dev\OOP\BPC_Bank\BPC_Bank\obj\Debug\net8.0\BPC_Bank.pdb
+C:\Users\Karel\Documents\dev\OOP\BPC_Bank\BPC_Bank\obj\Debug\net8.0\BPC_Bank.genruntimeconfig.cache
+C:\Users\Karel\Documents\dev\OOP\BPC_Bank\BPC_Bank\obj\Debug\net8.0\ref\BPC_Bank.dll
