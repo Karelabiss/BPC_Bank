@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BPC_Bank")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fee2b4619a4434c67e2f335e8cab48d413859fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7687ce5bc2ef43d99b33ebba4533cfac3c17334")]
 [assembly: System.Reflection.AssemblyProductAttribute("BPC_Bank")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BPC_Bank")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
