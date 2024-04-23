@@ -34,7 +34,7 @@ Toto je bonusová funkcia, ktorú môžme neskôr použíť pre implementáciu s
 
 ## bankProfile
 
-### Funkcia 'profileLogin()'
+### Funkcia profileLogin()
 
 Funkcia ktorá prihlási daný účet na základe meno a hesla. Vytvorený hash účtu použijeme ako cookies v databáze aby sme mohli vyberať informácia a ich upravovať. (Je to bezpečné? NIE! Funguje to? ÁNO!) 
 
