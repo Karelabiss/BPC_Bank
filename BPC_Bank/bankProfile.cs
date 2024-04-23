@@ -19,12 +19,12 @@ class bankProfile{
         
     }
     //Tu sa loadne profile do objektu, ktory nasledne budeme pouzivat ako prihlaseneho uzivatela.
-    public int loadProfile(string profileName, string profilePassword){
+    public int profileLogin(string profileName, string profilePassword){
         string databaseName; //sem pride pripojenie do databazy
         return 1;
     }
 
-    public int unloadProfile(){
+    public int profileLogout(){
         this.profileEmail = null;
         this.profileName = null;
         this.profileAddress = null;
@@ -46,11 +46,6 @@ class bankProfile{
 
     public int changeProfileInfo(string profileEmail, string profileAddress){
 
-        return 1;
-    }
-
-    public int changeProfileName(string profileName){
-        // Zmena mena na zaklade ID v databaze
         return 1;
     }
 
