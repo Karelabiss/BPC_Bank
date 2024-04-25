@@ -67,8 +67,4 @@ Funkcia, ktorá slúži ako tranzakcia. (Štandardná platba na účet). Môže 
 
 ## Data ooperations
 
-Databáza bude mať funkcie, ktoré vyhľadajú PID medzi všetkými tabuľkami. Toto ID následne uloží do premennej.
-
-public getPID(string profileName, string Password){
-    
-}
+Tu sa bude riešiť pripojenie do databáze.
