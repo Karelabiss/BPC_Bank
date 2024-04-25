@@ -67,8 +67,9 @@ class bankProfile{
     public int changeProfilePassword(string profileOldPassword, string profileNewPassword)
     {
         // Kontrola stareho hesla v databaze 
-        string hashedPassword = generateHash(profileNewPassword)
+        string hashedPassword = generateHash(profileNewPassword);
         // Prepisanie noveho hesla do databaze
+        return 1;
     }
 
     private string generateHash(string Data){
