@@ -65,6 +65,6 @@ Funkcia, ktorá slúži na zaplatenie nejakého produktu. (Okamžitá platba)
 
 Funkcia, ktorá slúži ako tranzakcia. (Štandardná platba na účet). Môže trvať dlhšie a zároveň môže sa tam používať 2FA a pod.
 
-## Data ooperations
+## Data operations
 
 Tu sa bude riešiť pripojenie do databáze.
