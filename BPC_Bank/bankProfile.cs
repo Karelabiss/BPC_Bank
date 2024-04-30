@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Data;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Drawing;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,21 +18,16 @@ class bankProfile{
     private string profileAddress;
     private string profileID;
     private string profileName;
+    private float profileBalance;
 
 
-    public bankProfile(string profileName){
+    public bankProfile(){
         
-        Console.WriteLine("Name: " + this.profileName);
-        Console.WriteLine("Address: " + this.profileAddress);
-        Console.WriteLine("ID: " + this.profileID);
-        Console.WriteLine("Email: " + this.profileEmail);
-
     }
                      //Tu sa loadne profile do objektu, ktory nasledne budeme pouzivat ako prihlaseneho uzivatela.
     public int profileLogin(string profileName, string profilePassword){
                     //Časť ktorá premení heslo na hash, ktorý bude porovnateľný v databáze. (V databáze budú SHA1 hashnuté heslá)
         string hashPassword = generateHash(profilePassword);
-        string databaseName; //sem pride pripojenie do databazy
         return 1;
     }
 
@@ -49,6 +45,7 @@ class bankProfile{
         profilePassword = null;
         // Pridat funkciu pre kontrolu ci sa nachadzaju dane hodnoty v databaze 
         
+        string profileID = generateHash(hashedPassword+profileName);
         return 1;
     }
 
@@ -70,6 +67,30 @@ class bankProfile{
         string hashedPassword = generateHash(profileNewPassword);
         // Prepisanie noveho hesla do databaze
         return 1;
+    }
+
+    public string getID(){
+            // ID z profilu
+        return this.profileID;
+    }
+
+    public float getAccountBalance(){
+        //Aktualizacia zostatku
+        return this.profileBalance;
+    }
+
+    public bool validBalance(float amount) {
+        
+        /*
+        float profileBalance = **databazovy vystup pre balance**;
+         
+        if (amount < profileBalance) {
+            return true;
+        }
+        else {
+            return false;
+        }*/
+        return true;
     }
 
     private string generateHash(string Data){
