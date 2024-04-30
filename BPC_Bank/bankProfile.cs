@@ -49,26 +49,6 @@ class bankProfile{
         return 1;
     }
 
-                    //Funkcia, ktora na zaklade ID profilu a hesla vymaze ucet.
-    public int deleteProfile(){
-
-                    // Vymazanie uctu na zaklade ID profilu z databaze.
-        return 1;
-    }
-
-    public int changeProfileInfo(string profileEmail, string profileAddress){
-        // Prepisanie informacii v databaze
-        return 1;
-    }
-
-    public int changeProfilePassword(string profileOldPassword, string profileNewPassword)
-    {
-        // Kontrola stareho hesla v databaze 
-        string hashedPassword = generateHash(profileNewPassword);
-        // Prepisanie noveho hesla do databaze
-        return 1;
-    }
-
     public string getID(){
             // ID z profilu
         return this.profileID;
