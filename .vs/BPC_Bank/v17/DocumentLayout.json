@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Karel\\Documents\\dev\\OOP\\BPC_Bank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Karel\\Documents\\dev\\OOP\\BPC_Bank\\BPC_Bank\\bankOperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BPC_Bank\\bankOperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Karel\\Documents\\dev\\OOP\\BPC_Bank\\BPC_Bank\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BPC_Bank\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Karel\\Documents\\dev\\OOP\\BPC_Bank\\BPC_Bank\\bankProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BPC_Bank\\bankProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB9E5AAD-BBD7-41ED-A0B8-600E2420C752}|BPC_Bank\\BPC_Bank.csproj|c:\\users\\karel\\documents\\dev\\oop\\bpc_bank\\bpc_bank\\bankprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB9E5AAD-BBD7-41ED-A0B8-600E2420C752}|BPC_Bank\\BPC_Bank.csproj|solutionrelative:bpc_bank\\bankprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "bankOperations.cs",
-              "DocumentMoniker": "C:\\Users\\Karel\\Documents\\dev\\OOP\\BPC_Bank\\BPC_Bank\\bankOperations.cs",
-              "RelativeDocumentMoniker": "BPC_Bank\\bankOperations.cs",
-              "ToolTip": "C:\\Users\\Karel\\Documents\\dev\\OOP\\BPC_Bank\\BPC_Bank\\bankOperations.cs",
-              "RelativeToolTip": "BPC_Bank\\bankOperations.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T10:06:48.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "bankProfile.cs",
               "DocumentMoniker": "C:\\Users\\Karel\\Documents\\dev\\OOP\\BPC_Bank\\BPC_Bank\\bankProfile.cs",
               "RelativeDocumentMoniker": "BPC_Bank\\bankProfile.cs",
               "ToolTip": "C:\\Users\\Karel\\Documents\\dev\\OOP\\BPC_Bank\\BPC_Bank\\bankProfile.cs",
               "RelativeToolTip": "BPC_Bank\\bankProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAswBoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T09:17:20.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Karel\\Documents\\dev\\OOP\\BPC_Bank\\BPC_Bank\\Program.cs",
-              "RelativeDocumentMoniker": "BPC_Bank\\Program.cs",
-              "ToolTip": "C:\\Users\\Karel\\Documents\\dev\\OOP\\BPC_Bank\\BPC_Bank\\Program.cs",
-              "RelativeToolTip": "BPC_Bank\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T09:15:27.849Z",
+              "WhenOpened": "2024-05-02T09:11:41.035Z",
               "EditorCaption": ""
             }
           ]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BPC_Bank")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c182125efb28e2063120b43d83fa66f7defeca1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee0ab186cdd4b02a040d6b1784d45e386d0284e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("BPC_Bank")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BPC_Bank")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
