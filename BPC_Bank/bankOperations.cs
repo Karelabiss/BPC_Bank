@@ -1,4 +1,5 @@
 using System.Dynamic;
+using System.Data.OleDb;
 
 class bankOperations {
 
@@ -6,13 +7,13 @@ class bankOperations {
 
     }
 
-    public void getStatus(bankProfile profile) {
-        profile.getBalance();
+    public void getStatus(OleDbConnection con, bankProfile profile) {
+        profile.getBalance(con);
     }
 
-    public bool sendPayment(bankProfile profile, double amount) {
+    public bool sendPayment(OleDbConnection con, bankProfile profile, double amount) {
         try {
-            profile.dataDeductBalance(amount);
+            profile.dataDeductBalance(con, amount);
             return true;
         }
         catch (Exception e) {
@@ -22,22 +23,29 @@ class bankOperations {
 
     }
 
-    public bool sendTransaction(bankProfile profile, double amount, string receiverId) {
-        string profileID = profile.getID();
-        if (profile.validBalance(amount)) {
+    public bool sendTransaction(OleDbConnection con, bankProfile profile, double amount, string receiverId) {
+        string profileId = profile.getID();
+        if (profile.validBalance(con, amount)) {
             try {
-                profile.dataDeductBalance(amount);
-                profile.dataAddBalance(receiverId, amount);
+
+                if (profile.dataDeductBalance(con, amount)) {
+                    if (profile.dataAddBalance(con, receiverId, amount)) {
+                    }
+                    else {
+                        Console.WriteLine("Chyba pri transakcii!");
+                        profile.dataAddBalance(con, profileId, amount);
+                    }
+                }
+                
                 return true;
-                // DATABASE: Pridat amount na druhy ucet
             }
             catch (Exception e) {
                 Console.WriteLine(e);
                 return false;
             }
-            // Kontrola zostatku na účte + prenesenie financií v databáze do daného uctu 
         }
         else {
+            Console.WriteLine("Nedostatok peňauzou!!");
             return false;
         }
     }

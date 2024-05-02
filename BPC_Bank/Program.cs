@@ -16,14 +16,44 @@ void Main() {
 
     OleDbConnection con = new OleDbConnection(connString);
     
-    bankProfile pro1 = new bankProfile(con, "roman", "test");
+    Console.WriteLine("------------ Prihlasenie -----------");
+    Console.Write("Zadajte meno: ");
+    string name = Console.ReadLine();
     
-    /*if (ops.sendTransaction(pro1, 100, "roman")) {
-        Console.WriteLine("True");
+    Console.Write("Zadajte heslo: ");
+    string password = Console.ReadLine();
+    
+    bankProfile pro1 = new bankProfile(con, name, password);
+    
+    Console.WriteLine("------------ Vyberte Moznost -----------");
+    Console.WriteLine("1 - Zaplatitit transakciu");
+    Console.WriteLine("2 - Poslat penize na ucet");
+    string f = Console.ReadLine();
+    if (f == "2") {
+        Console.WriteLine("Zadajte ID prijimatela: ");
+        string ID = Console.ReadLine();               
+        Console.WriteLine("Zadajte sumu: ");          
+        string amount = Console.ReadLine(); 
+        ops.sendTransaction(con, pro1, Convert.ToDouble(amount), ID);                         
     }
     else {
-        Console.WriteLine("False");
-    }*/
+        Console.WriteLine("Zadajte sumu: ");   
+        string amount = Console.ReadLine();
+        ops.sendPayment(con, pro1, Convert.ToDouble(amount));
+    }
+                                                                                                                                                                                                                                                                                                                                                       
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
 }
 
 Main();
